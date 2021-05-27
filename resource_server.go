@@ -12,7 +12,7 @@ func resourceServer() *schema.Resource {
         Delete: resourceServerDelete,
 
         Schema: map[string]*schema.Schema{
-            "address": &schema.Schema{
+            "address": {
                 Type:     schema.TypeString,
                 Required: true,
             },
