@@ -1,3 +1,4 @@
+
 provider "testing" {}
 
 resource "example-server" "my-server" {
